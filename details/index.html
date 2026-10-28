@@ -1,0 +1,281 @@
+<!DOCTYPE html><html lang="en" data-theme="dark" data-brand="pacenote"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="referrer" content="strict-origin-when-cross-origin"><title>How Pacenote works</title><meta name="description" content="Everything behind the co-pilot: what triggers a tip, the tips window, presentation and interview modes, speakers, privacy, what you need and how to install it."><meta name="robots" content="index, follow, max-image-preview:large"><link rel="canonical" href="https://pacenote.bodco.pm/details/"><link rel="alternate" hreflang="en" href="https://pacenote.bodco.pm/details/"><link rel="alternate" hreflang="uk" href="https://pacenote.bodco.pm/uk/details/"><link rel="alternate" hreflang="x-default" href="https://pacenote.bodco.pm/details/"><link rel="sitemap" href="/sitemap-index.xml"><link rel="icon" href="/pacenote/favicon.svg" type="image/svg+xml"><link rel="icon" href="/pacenote/favicon-32.png" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="/pacenote/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><meta name="theme-color" content="#0E1014"><meta name="color-scheme" content="light dark"><script>
+      // Theme: dark by default; light only when the viewer switched to it (remembered in the browser).
+      (function () {
+        var t = null;
+        try { t = localStorage.getItem('theme'); } catch (e) {}
+        if (t !== 'light') t = 'dark';
+        document.documentElement.dataset.theme = t;
+        var m = document.querySelector('meta[name="theme-color"]');
+        if (m) m.setAttribute('content', t === 'light' ? '#F6F5F1' : '#0E1014');
+      })();
+    </script><meta property="og:type" content="website"><meta property="og:site_name" content="Pacenote"><meta property="og:title" content="How Pacenote works"><meta property="og:description" content="Everything behind the co-pilot: what triggers a tip, the tips window, presentation and interview modes, speakers, privacy, what you need and how to install it."><meta property="og:url" content="https://pacenote.bodco.pm/details/"><meta property="og:image" content="https://pacenote.bodco.pm/pacenote/og-en.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Pacenote: your co-driver on calls"><meta property="og:locale" content="en_US"><meta property="og:locale:alternate" content="uk_UA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="How Pacenote works"><meta name="twitter:description" content="Everything behind the co-pilot: what triggers a tip, the tips window, presentation and interview modes, speakers, privacy, what you need and how to install it."><meta name="twitter:image" content="https://pacenote.bodco.pm/pacenote/og-en.png"><meta name="twitter:image:alt" content="Pacenote: your co-driver on calls"><script type="application/ld+json">[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Pacenote","item":"https://tower.bodco.pm/"},{"@type":"ListItem","position":2,"name":"Pacenote","item":"https://pacenote.bodco.pm/"},{"@type":"ListItem","position":3,"name":"How Pacenote works","item":"https://pacenote.bodco.pm/details/"}]}]</script><link rel="stylesheet" href="/_astro/_slug_.Cni2dnSV.css">
+<style>.product-hero__in[data-astro-cid-tvezmfl6]{display:flex;flex-wrap:wrap;gap:56px;align-items:center;padding-top:72px;padding-bottom:72px}.product-hero__text[data-astro-cid-tvezmfl6]{flex:1 1 440px;display:flex;flex-direction:column;gap:18px;min-width:0}.product-hero__vis[data-astro-cid-tvezmfl6]{flex:1 1 380px;min-width:0}.product-hero__name[data-astro-cid-tvezmfl6]{display:flex;align-items:center;gap:18px}.product-hero__name[data-astro-cid-tvezmfl6] img[data-astro-cid-tvezmfl6]{border-radius:14px}.product-hero__name[data-astro-cid-tvezmfl6] h1[data-astro-cid-tvezmfl6]{margin:0}.product-hero__wm[data-astro-cid-tvezmfl6] img[data-astro-cid-tvezmfl6]{width:230px;height:auto;border-radius:0}@media(max-width:720px){.product-hero__wm[data-astro-cid-tvezmfl6] img[data-astro-cid-tvezmfl6]{width:180px}}.product-hero__sub[data-astro-cid-tvezmfl6]{margin:0;font-size:24px;line-height:1.3;color:var(--text);font-weight:500}@media(max-width:720px){.product-hero__in[data-astro-cid-tvezmfl6]{padding-top:40px;padding-bottom:48px;gap:36px}.product-hero__sub[data-astro-cid-tvezmfl6]{font-size:20px}}
+</style></head> <body> <a class="skip" href="#main">Skip to content</a> <header class="site-header"> <nav class="nav wrap" aria-label="Main" data-open="false"> <a class="brand" href="/"><span class="brand__emoji" style="font-size:22px" aria-hidden="true">🗼</span> PM Control Tower</a> <div class="nav__tools"> <div class="lang" role="group" aria-label="Language"> <a href="/details/" hreflang="en" lang="en" aria-current="true">EN</a><a href="/uk/details/" hreflang="uk" lang="uk">UK</a> </div> <button class="theme-btn" type="button" aria-label="Dark theme" title="Dark theme" aria-pressed="false"> <svg class="i-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z"></path></svg> <svg class="i-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg> </button>  <a class="gh" href="https://github.com/bodco/pm-control-tower" aria-label="GitHub"> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 19c-4 1.5-4-2-6-2.5M15 22v-3.5a3 3 0 0 0-.9-2.4c3-.3 6-1.5 6-6.6a5 5 0 0 0-1.4-3.6 4.7 4.7 0 0 0-.1-3.6s-1.1-.3-3.7 1.4a12.6 12.6 0 0 0-6.6 0C5.7 2 4.6 2.3 4.6 2.3a4.7 4.7 0 0 0-.1 3.6A5 5 0 0 0 3 9.5c0 5.1 3 6.3 6 6.6a3 3 0 0 0-.9 2.4V22"></path></svg> <span>GitHub</span> </a> <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Menu"> <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg> </button> </div> <ul class="nav__links" id="nav-links"> <li><a href="https://tower.bodco.pm/day/">A day with it</a></li><li><a href="/">Pacenote</a></li><li><a href="https://tower.bodco.pm/notion/">Notion template</a></li><li><a href="https://tower.bodco.pm/skills/">Skills</a></li><li><a href="https://tower.bodco.pm/how-it-works/">How it works</a></li><li><a href="https://tower.bodco.pm/start/">Set it up</a></li> <li class="nav__lang-mobile"> <div class="lang" role="group" aria-label="Language"> <a href="/details/" hreflang="en" lang="en" aria-current="true">EN</a><a href="/uk/details/" hreflang="uk" lang="uk">UK</a> </div> </li> </ul> </nav> </header> <script type="module">const a=document.querySelector(".theme-btn"),c=()=>a?.setAttribute("aria-pressed",String(document.documentElement.dataset.theme==="dark"));c();a?.addEventListener("click",()=>{const e=document.documentElement.dataset.theme==="light"?"dark":"light";document.documentElement.dataset.theme=e;try{localStorage.setItem("theme",e)}catch{}document.querySelector('meta[name="theme-color"]')?.setAttribute("content",e==="light"?"#F6F5F1":"#0E1014"),c()});const t=document.querySelector(".nav"),n=document.querySelector(".menu-btn");n?.addEventListener("click",()=>{const e=t?.dataset.open!=="true";t&&(t.dataset.open=String(e)),n.setAttribute("aria-expanded",String(e))});document.addEventListener("keydown",e=>{e.key==="Escape"&&t?.dataset.open==="true"&&(t.dataset.open="false",n?.setAttribute("aria-expanded","false"),n?.focus())});</script> <main id="main"> <section class="page-hero" data-astro-cid-tvezmfl6> <div class="page-hero__in wrap" data-astro-cid-tvezmfl6> <div class="page-hero__text" data-astro-cid-tvezmfl6> <p class="crumbs" data-astro-cid-tvezmfl6><a href="/" data-astro-cid-tvezmfl6>Home</a> / <a href="/" data-astro-cid-tvezmfl6>Pacenote</a> / How it works</p> <h1 class="h1 h1--page" data-astro-cid-tvezmfl6>How Pacenote works</h1> <p class="lead" data-astro-cid-tvezmfl6>Everything behind the co-pilot: what triggers a tip, the tips window, presentation and interview modes, speakers, privacy, what you need and how to install it.</p> </div> <dl class="facts" data-astro-cid-tvezmfl6> <div data-astro-cid-tvezmfl6><dt data-astro-cid-tvezmfl6>Runs on</dt><dd data-astro-cid-tvezmfl6>Apple Silicon Mac</dd></div><div data-astro-cid-tvezmfl6><dt data-astro-cid-tvezmfl6>Speech model</dt><dd data-astro-cid-tvezmfl6>Whisper, local</dd></div><div data-astro-cid-tvezmfl6><dt data-astro-cid-tvezmfl6>Tips in</dt><dd data-astro-cid-tvezmfl6>A window under the camera</dd></div><div data-astro-cid-tvezmfl6><dt data-astro-cid-tvezmfl6>Writes to</dt><dd data-astro-cid-tvezmfl6>Notion Meetings DB</dd></div><div data-astro-cid-tvezmfl6><dt data-astro-cid-tvezmfl6>Status</dt><dd data-astro-cid-tvezmfl6>beta 0.6.0</dd></div> </dl> </div> </section><div class="page-body wrap" data-astro-cid-tvezmfl6> <details class="toc" open data-astro-cid-tvezmfl6> <summary class="label toc__sum" data-astro-cid-tvezmfl6>On this page</summary> <nav class="toc__links" aria-label="On this page" data-astro-cid-tvezmfl6> <a href="#facts-or-silence" data-astro-cid-tvezmfl6>Facts or silence</a><a href="#instant-before-smart" data-astro-cid-tvezmfl6>Instant before smart</a><a href="#what-a-tip-looks-like" data-astro-cid-tvezmfl6>What a tip looks like</a><a href="#the-tips-window" data-astro-cid-tvezmfl6>The tips window</a><a href="#it-reads-the-meeting-by-itself" data-astro-cid-tvezmfl6>It reads the meeting by itself</a><a href="#presentation-mode-slides-and-tips-side-by-side" data-astro-cid-tvezmfl6>Presentation mode: slides and tips side by side</a><a href="#who-is-speaking" data-astro-cid-tvezmfl6>Who is speaking</a><a href="#built-for-real-calls" data-astro-cid-tvezmfl6>Built for real calls</a><a href="#optional-local-search-with-ollama" data-astro-cid-tvezmfl6>Optional: local search with Ollama</a><a href="#a-call-step-by-step" data-astro-cid-tvezmfl6>A call, step by step</a><a href="#after-the-call-notes-you-did-not-have-to-write" data-astro-cid-tvezmfl6>After the call: notes you did not have to write</a><a href="#pacenote-app-beta" data-astro-cid-tvezmfl6>Pacenote app (beta)</a><a href="#open-source-inside-beta-outside" data-astro-cid-tvezmfl6>Open source inside, beta outside</a><a href="#why-it-is-built-this-way" data-astro-cid-tvezmfl6>Why it is built this way</a><a href="#privacy-and-etiquette" data-astro-cid-tvezmfl6>Privacy and etiquette</a><a href="#what-you-need" data-astro-cid-tvezmfl6>What you need</a><a href="#install-about-15-minutes" data-astro-cid-tvezmfl6>Install, about 15 minutes</a> </nav> </details> <script>
+        // Collapsed by default on narrow screens, so step 1 is not pushed a screen down. Runs before paint.
+        (function () { var d = document.currentScript && document.currentScript.previousElementSibling; if (d && d.tagName === 'DETAILS' && window.matchMedia('(max-width: 700px)').matches) d.open = false; })();
+      </script> <div class="page-main" data-astro-cid-tvezmfl6> <article class="prose" data-astro-cid-tvezmfl6> <p>You stop agreeing to scope in the moment and regretting it later. When the client asks “how long will the export take?”, the number from your own prep is already under the camera. When they slip in “just a small extra”, a short hint and a ready phrase appear before you answer. After the call, the action items, your promises and the transcript are on a Meetings page, and you did not write any of it.</p>
+<p>This is a <strong>beta</strong>: built and tested by one person on real calls, and built on other people’s open-source models (see <a href="https://tower.bodco.pm/open-source/">open source inside</a>).</p>
+<h2 id="facts-or-silence">Facts or silence</h2>
+<p>Silence is the default. A tip carries a number, a date, a name, a status or a ready phrase, or it is not shown. A tip appears when one of these fires:</p>
+<div class="grid" style="--min: 240px;">
+<div class="card"><h3 class="card__title">A question to you</h3><p class="card__text">The answer as a ready sentence, with the fact and its source.</p></div>
+<div class="card"><h3 class="card__title">Your turn</h3><p class="card__text">Someone calls you by name: your update, ready to read.</p></div>
+<div class="card"><h3 class="card__title">A new request</h3><p class="card__text">An ask that looks like a change request: "do not agree now" and a phrase that buys time.</p></div>
+<div class="card"><h3 class="card__title">A promised date or estimate</h3><p class="card__text">It never suggests hours. The assignee gives the estimate.</p></div>
+<div class="card"><h3 class="card__title">Fix the owner and date</h3><p class="card__text">A decision was discussed but nobody owns it yet.</p></div>
+<div class="card"><h3 class="card__title">A contradiction</h3><p class="card__text">Something said against a recorded decision.</p></div>
+</div>
+<p>It follows the live topic, not the plan: when the talk leaves your agenda, it looks for facts about what is being discussed or stays quiet. Proactive hints (“you can add…”) are off by default and one switch away.</p>
+<h2 id="instant-before-smart">Instant before smart</h2>
+<p>A model needs seconds to think, and the conversation does not wait. So before the call the skill prepares a small fact book and instant cards from your project: tickets with estimates, decisions, dates, open questions. During the call the recorder on your Mac matches every phrase against them and shows the fact within 1 or 2 seconds, with no model in the loop. Claude adds what the cards could not know. With the optional local search (below), the match works by meaning, not only by the exact words.</p>
+<h2 id="what-a-tip-looks-like">What a tip looks like</h2>
+<p>Built for a small window right under the camera, so your eyes do not wander. 2 to 5 short lines: the gist first, then a ready phrase in the language of the call. Simple sentences, everyday words, no abbreviations.</p>
+<div class="grid" style="--min: 280px;">
+<div class="tip"><span class="card__tag">New request</span><b>New request. Do not agree now.</b><span>"Good idea. I will write it down. We will check it and come back to you."</span></div>
+<div class="tip"><span class="card__tag">Inaccurate</span><b>Release is 15.10, not 10.10</b><span>"Sorry, a small correction. The release date is October 15."</span><span><i>decision of 30.09</i></span></div>
+</div>
+<p>A tip marked as internal relies on an internal source and is never meant to be repeated to the client.</p>
+<h2 id="the-tips-window">The tips window</h2>
+<p>Tips appear in their own small window, not in a chat you have to keep open. It opens by itself when the recording starts, at the top centre of the screen, right under the camera.</p>
+<div class="grid" style="--min: 240px;">
+<div class="card"><h3 class="card__title">🆘 Help now</h3><p class="card__text">You are talking and cannot type. One click: the best facts for what is being said appear at once, then the next sentence you can say.</p></div>
+<div class="card"><h3 class="card__title">⏸ Pause, ▶ resume</h3><p class="card__text">The talk went aside? Pause the tips. In the app the transcript pauses too (both sides, the dot turns grey); press play and it comes back to the live topic.</p></div>
+<div class="card"><h3 class="card__title">One field</h3><p class="card__text">Typing searches your fact book on the spot. Enter sends the question to Claude, and the answer arrives in the same window.</p></div>
+<div class="card"><h3 class="card__title">One menu</h3><p class="card__text">Meeting type, audience, language, microphone, text size, transparency and help live behind one gear. The top bar stays clean.</p></div>
+<div class="card"><h3 class="card__title">One warning at a time</h3><p class="card__text">Your microphone stopped recording? One alert with a button that fixes it, such as switching to the Mac's own microphone.</p></div>
+<div class="card"><h3 class="card__title">Stealth or demo</h3><p class="card__text">Hidden from screen sharing and screenshots by default. Switch stealth off to show the window to colleagues.</p></div>
+</div>
+<p>Pin any card, including your speech, so it stays on top; unpin it and it returns to its place. A ❓ line shows a question to you the moment it is heard, before the tip arrives. The interface speaks English or Ukrainian; the tips follow the language of the call. The 🎙 button is the mic mute: the recorder cannot see the mute button of Meet or Zoom, so when you are muted in a cafe, press it too. Closed the window by accident? Ask in the chat to open it again, and it comes back with every tip since the start of the call.</p>
+<h2 id="it-reads-the-meeting-by-itself">It reads the meeting by itself</h2>
+<p>You do not pick a meeting type before every call. Two things are worked out from the schedule, the project and what is being said, and you can correct them in the gear menu:</p>
+<ul>
+<li><strong>Who is on the other side.</strong> Your team (candid, your language), a client (their language, internal facts stay internal, wording tuned to their culture) or your own manager playing the client on an internal project.</li>
+<li><strong>What is happening.</strong> A discussion, or you presenting: then it stops interrupting and keeps your outline (Now and Next) in view.</li>
+</ul>
+<p>Two meeting types need a choice because they need their own preparation: <strong>Presentation</strong> (your talk as an outline that follows you) and <strong>Interview</strong>, with three roles:</p>
+<ul>
+<li><strong>Observer.</strong> Someone else asks and answers; you get a reference answer to compare with what you hear, and an analysis after the call.</li>
+<li><strong>Interviewer.</strong> You ask; it tracks your planned questions and suggests a follow-up when an answer is vague.</li>
+<li><strong>Coach.</strong> You are the one being asked: a steering committee, questions after a demo, a quarterly review, an audit, or a rehearsal before any of these. Like a coach at the edge of the field: short cues during the game, while you play it yourself. It keeps your prepared talking points, numbers and results within reach, reminds you of the part of a question you have not answered yet, and helps you keep the answer short and structured. It uses only what you prepared and never invents facts.</li>
+</ul>
+<p>For client calls, an optional culture lens from your project notes adjusts the wording and reads the signals: in many cultures “a bit concerning” means a real problem.</p>
+<h2 id="presentation-mode-slides-and-tips-side-by-side">Presentation mode: slides and tips side by side</h2>
+<p>When the meeting type is <strong>Presentation</strong> and the prep has slides (a <code>&#x3C;name>.slides.json</code> file next to the brief), the tips window splits into 2 halves: slide cards with the full text of your speech, and the usual tips stream. It works the same in the Cowork skill and in the app.</p>
+<div class="grid" style="--min: 240px;">
+<div class="card"><h3 class="card__title">One slide at a time</h3><p class="card__text">Cards snap into place one by one. Move with the arrows, the buttons or the mouse wheel.</p></div>
+<div class="card"><h3 class="card__title">A timer with a limit</h3><p class="card__text">Set the minutes you have, and the time of each slide scales to fit. The pace shows your words per minute.</p></div>
+<div class="card"><h3 class="card__title">Auto</h3><p class="card__text">Slides turn by the schedule with a short signal, and a warning comes 10 seconds before a slide's time is up.</p></div>
+<div class="card"><h3 class="card__title">Trim</h3><p class="card__text">Running late? Hide the paragraphs marked as safe to skip and keep only what must be said.</p></div>
+</div>
+<p>Each paragraph on a card has a kind: <strong>read aloud</strong>, <strong>may skip</strong>, a <strong>hint</strong> for you (not to be read), or a <strong>colleague’s line</strong> that comes right before your part. <strong>My slides / All slides</strong> switches between your part and the whole deck when several people present. At the end a table compares the plan with the actual time of every slide. 📑 hides or shows the cards, ⇄ swaps the 2 sides (the choice is remembered). The window grows towards the cards, so the tips stream stays where you put it.</p>
+<h2 id="who-is-speaking">Who is speaking</h2>
+<p>Everyone on the other side arrives in one audio stream. An optional local voice model tells the voices apart. When a new voice has spoken for a few seconds, the window asks “Who is speaking?” with a quote, so you know whom it means, and buttons with the names from your project and from earlier calls. Nothing is named without you. One click fixes a wrong line or merges two voices; the names apply to the whole call. Identifying voices never delays a tip.</p>
+<h2 id="built-for-real-calls">Built for real calls</h2>
+<ul>
+<li><strong>The microphone does not go silent unnoticed.</strong> If the stream freezes (it happens after unmuting in some meeting apps), the recorder restarts it, switches to the Mac’s own microphone if needed, and tells you once.</li>
+<li><strong>The loop does not stop by itself.</strong> A red warning appears if Claude stops listening, and one word in the chat brings it back.</li>
+<li><strong>The prep is checked.</strong> The call does not start on an empty fact book: the skill checks that the cards and facts were written.</li>
+</ul>
+<h2 id="optional-local-search-with-ollama">Optional: local search with Ollama</h2>
+<p>With <a href="https://ollama.com">Ollama</a> and a small multilingual embedding model (<code>bge-m3</code>), the recorder understands meaning, not only words. Facts appear when a question is phrased differently from your notes, 🆘 finds the right one, and the text files of each project, including a local copy of your Notion, become searchable during the call. Each project gets its own index, so projects never mix. Logs show whether it helped on your calls, and one switch turns it off.</p>
+<h2 id="a-call-step-by-step">A call, step by step</h2>
+<ol>
+<li><strong>Prep in the same session.</strong> Meeting prep, the Notion pages or folder to focus on. The brief, the fact book and the cards start from it.</li>
+<li><strong>Say “live tips” right before the call.</strong> Recording starts at once (your microphone and the other side as 2 channels), the tips window opens under the camera and shows your speech.</li>
+<li><strong>Use the window, not the keyboard.</strong> 🆘 when you need help now, ⏸ when the talk goes aside, a question in the field when you have a second.</li>
+<li><strong>Stop it explicitly.</strong> Type “stop” in the window or the chat, close the Terminal window, or let the idle timer ask. Closing Zoom or Meet does not stop the recording.</li>
+</ol>
+<p><strong>Open it before the call (standby).</strong> You can start a few minutes early: the window opens, but nothing is recorded and no microphone warnings appear while you wait. Recording starts by itself when the other side has been speaking for about 5 seconds, or at once when you press the green <strong>Start</strong>. This works in the skill and in the app.</p>
+<p><strong>No time to prepare? Start anyway.</strong> A preparation makes tips richer, it is not required. Without it you still get the red tips when you are addressed (a question to you, your turn, a new request, a date being promised), HELP NOW, answers to questions you type, a search over the project folder, On me and the meeting page after the call. A question nothing ready answers gets a sentence you can say at once (“give me a minute, I will check”) and starts a deeper, read-only search: Claude Code reads the project folder, the local Notion copy and earlier calls, and the answer arrives as a new card, usually in 15-60 seconds. Missing until a preparation arrives: the speech card and the instant fact cards. A preparation that finishes after the start joins the call by itself, so a late one costs you a quieter first few minutes, not the call. Two lines in Call context (the goal, what to look for) already help.</p>
+<p><strong>Correct what you see.</strong> ✎ on any card edits its heading, phrase and points, or removes it; in On me, × removes a line, a double-click corrects it and a field adds what the call picture missed. Corrections stay for the call and the Notion summary takes them as true. The 📄 button opens the full preparation next to the tips, editable; Read prep in Home shows and edits it before the call.</p>
+<p><strong>Proactive tips during the call.</strong> The 💡 button in the top bar switches proactive tips (ideas to add: a missing owner or date, a fact worth mentioning) on and off without opening ⚙. The top bar now reads left to right: the dot, the title and the timer; then what the tips do (💡 proactive, ⏸ pause) and your mic (🎙); then the view (transcript, ⚙). End call stays apart, in the window’s title bar, and always asks first.</p>
+<p><strong>Calendars and Home.</strong> Settings > Calendars: add accounts in System Settings > Internet Accounts (several Google and Microsoft accounts are fine), connect, and tick the calendars with your calls. Start call then shows the calls around now as chips (in progress, in 5 min, overlapping ones too); a click fills the title, time, participants and, for a regular meeting, everything from its last call. Home lists the calls ahead with Prepare (it asks first for the project or workspace and what matters on the call), Set up, Start or Switch, this week’s numbers, and the recent calls with Notion, Transcript and Show in Finder. An optional reminder before calendar calls is off by default.</p>
+<p><strong>Back-to-back calls: Up next.</strong> During a call, Start call becomes <strong>Plan an upcoming call</strong>: the same window with a red “Recording: …” line on top, so it is clear it does not start anything. <strong>Add to Up next</strong> keeps the call, <strong>Prepare</strong> writes its preparation while you talk (one at a time; the others wait in line), and <strong>End current call and start this…</strong> switches after one question. In the tips window, ⚙ > Up next lists the planned calls with their preparation (Edit, Prepare, Switch, ×), and the dock shows the next one with a <strong>Switch…</strong> button. End call offers “End and start <next call="">”, and after a call ends the green <strong>Start next</strong> button starts the next call at once. The list is kept when the app restarts. A preparation joins only the call it was made for.</next></p>
+<p><strong>The dot next to the call’s name</strong> shows the recording: grey while waiting for the call or paused, blue while the recording starts or stops (between pressing Start and the first transcribed second), blinking red while it records, orange when the microphone has a problem, green when it has stopped and the transcript is saved.</p>
+<h2 id="after-the-call-notes-you-did-not-have-to-write">After the call: notes you did not have to write</h2>
+<p>A wrap-up in the chat: action items with owners and dates, new requests, your commitments, open questions, and answers worth coming back to. It goes into the meeting’s existing Notion page (for example the one Notion AI Meeting Notes created), and a new page appears only when there is none. Your notes from the call become lessons for the next one. Next steps (a report, a change request, a risk) are offered, never run without your command.</p>
+<h2 id="pacenote-app-beta">Pacenote app (beta)</h2>
+<p>The same tips loop as a native macOS app in the menu bar, without a Cowork chat running during the call. It records the call on your Mac, transcribes it there with Whisper on MLX and calls the Claude API directly with your own API key, kept in the macOS Keychain.</p>
+<div class="btns" style="margin: 8px 0 24px;">
+<a class="btn btn--primary" href="https://github.com/bodco/live-tips/releases/latest/download/Pacenote.dmg" download>Download Pacenote for Mac (.dmg)</a>
+</div>
+<div class="grid" style="--min: 240px;">
+<div class="card"><h3 class="card__title">No chat to keep alive</h3><p class="card__text">The app asks the model on events (a question, your name, a new request) instead of a chat loop that can fall silent.</p></div>
+<div class="card"><h3 class="card__title">Spending limits</h3><p class="card__text">A soft and a hard limit per call and a monthly cap. The menu shows this call and this month. At the hard limit only the local layer keeps working.</p></div>
+<div class="card"><h3 class="card__title">Local AI built in</h3><p class="card__text">A small model on the Mac (bge-m3) matches facts and cards by meaning and powers 🆘 and project search. No Ollama needed.</p></div>
+<div class="card"><h3 class="card__title">Ready for the call</h3><p class="card__text">Standby start, a choice of microphone that stays put, the split view for presentations and the same tips window.</p></div>
+<div class="card"><h3 class="card__title">Notes in Notion</h3><p class="card__text">After the call the wrap-up and the transcript land on the meeting's Notion page: added to the existing one, or a new page when there is none.</p></div>
+<div class="card"><h3 class="card__title">Knows who is speaking</h3><p class="card__text">As in the skill: name a new voice once from the project's people, and the tips and the summary use the name. Voice prints stay on your Mac.</p></div>
+<div class="card"><h3 class="card__title">Interviews, both sides</h3><p class="card__text">Pick your role in Start call: you watch, you ask, or you are the one being interviewed. Tips follow the role.</p></div>
+<div class="card"><h3 class="card__title">Fast on busy hours</h3><p class="card__text">When Claude is slow to start, the same request goes again and the first good answer wins.</p></div>
+</div>
+<p><strong>It is a beta, so expect rough edges:</strong></p>
+<ul>
+<li><strong>Not notarized yet.</strong> On the first launch macOS refuses to open it: open <strong>System Settings > Privacy &#x26; Security</strong>, press <strong>Open Anyway</strong> next to Pacenote and confirm (on macOS 14 a right-click > <strong>Open</strong> also works). After that it opens normally. Before that, you can check the download against the <a href="https://github.com/bodco/live-tips/releases/latest/download/SHA256SUMS.txt">SHA-256 checksums</a> published with every release: <code>shasum -a 256 ~/Downloads/LiveTips.dmg</code>.</li>
+<li><strong>macOS 14.4 or newer on Apple silicon</strong> (M1 or newer).</li>
+<li><strong>Python 3.10 or newer.</strong> The Setup window checks it and installs the rest (Python modules and models, about 2.5 GB in total) with a tick next to each step. Nothing needs an administrator password.</li>
+<li><strong>Claude: an API key, your Claude plan, or both.</strong> The key is billed by Anthropic per use (usually $0.10 to $1.20 per hour of a call, and the limits keep it in check). Your Claude plan works through Claude Code, best for the preparation and the summary. Settings > AI picks the way for each job and switches by itself when one is out.</li>
+</ul>
+<h3 id="after-the-call-the-meeting-page-in-notion">After the call: the meeting page in Notion</h3>
+<p>Turn on <strong>Write the call summary to Notion</strong> in Settings and add a Notion token in Keys. When you end the call, one Claude call writes the wrap-up: action items with owners and dates, decisions, your commitments, new requests, open questions and risks. The app finds this meeting’s page in your Meetings database (its date within 20 minutes of the call start, so a Notion AI Meeting Notes page counts) and appends a <strong>Pacenote</strong> section with the transcript as a sub-page. No page yet: it creates one, with a real date in the title. Missed it? <strong>Send last call to Notion</strong> in the menu bar does it later. Only text goes to Claude and Notion; audio stays on your Mac.</p>
+<p><strong>Shortcuts.</strong> Control-Option-H is HELP NOW and Control-Option-P pauses the transcript and the tips, even while the meeting app has the focus; change them in Settings > General > Shortcuts. The app and the skill can also record the same call side by side, each with its own files, if you want to compare them.</p>
+<h3 id="app-or-skill">App or skill?</h3>
+<p>Both do roughly the same job: the same rules, the same “facts or silence”, the same tips window. Pick the one that fits how you work.</p>
+<ul>
+<li><strong>Skill in Cowork:</strong> no API key, it runs on your Claude plan, and it can look things up in Notion and the tracker during the call. It needs the Cowork chat to stay busy for the whole call.</li>
+<li><strong>App:</strong> one click from the menu bar, no chat to watch, your own key or Claude plan, and your limits.</li>
+</ul>
+<p>They work best together. Make the prep in Cowork (the brief, fact cards, an outline and slides for a presentation): the app picks it up by itself when the prep title matches the call title, so keep the same title for both. Without a prep the app still works: it uses the call context you type in <strong>Start call</strong> and a local search over the project folder.</p>
+<h2 id="open-source-inside-beta-outside">Open source inside, beta outside</h2>
+<p>The heavy parts are other people’s open-source work: speech recognition, voice and text embeddings. What is built here is the glue around them: the audio capture and its watchdogs, the filters around Whisper, the tips window, the protocol between the recorder and Claude, instant cards, speaker naming, the local index and the skill itself. Claude writes the tips.</p>
+<ul>
+<li><strong>Whisper</strong> (OpenAI, MIT) on <strong>MLX</strong> (Apple, MIT): speech recognition.</li>
+<li><strong>WebRTC VAD</strong> (BSD) via py-webrtcvad (MIT): speech or silence.</li>
+<li><strong>sherpa-onnx</strong> (Apache-2.0) with the <strong>WeSpeaker</strong> voice model (trained on VoxCeleb, CC BY 4.0): who is speaking.</li>
+<li><strong>Ollama</strong> (MIT) with <strong>bge-m3</strong> (BAAI, MIT): local search by meaning.</li>
+</ul>
+<p>It is a beta: tested by one person on one Mac since October 2026, thresholds are still tuned, Zoom and Teams are not fully verified. The full list with licences, links and what exactly is built here is on the <a href="https://tower.bodco.pm/open-source/">open source page</a>. Found a problem? <a href="https://github.com/bodco/pm-control-tower/issues">Open an issue</a>.</p>
+<h2 id="why-it-is-built-this-way">Why it is built this way</h2>
+<ul>
+<li><strong>Local Whisper.</strong> Client conversations do not go to a third-party transcription service. The model runs on Apple Silicon. The network is needed once, to download it.</li>
+<li><strong>2 channels, not 1.</strong> Microphone and system audio are captured separately, so the transcript knows when you speak.</li>
+<li><strong>Your languages are fixed in advance.</strong> Your microphone is recognised only among your own languages. Better than auto-detect.</li>
+<li><strong>Files as the interface.</strong> The skill (the written instructions Claude follows) and the recorder talk only through a few files and one small command line helper.</li>
+</ul>
+<h2 id="privacy-and-etiquette">Privacy and etiquette</h2>
+<ul>
+<li>Audio is not stored. Recognised phrases go straight to a text file, audio buffers live only in memory.</li>
+<li>Voice prints, if you turn speakers on, stay on your Mac. A voice print is biometric data in many countries: tell people, and delete the ones you do not need.</li>
+<li>Transcripts stay in your project folder. Keep them out of public repositories.</li>
+<li>The Meetings page is internal. The skill never sends anything to the client.</li>
+<li>Tell participants you keep a transcript and use an assistant, as with any note taker. Consent rules differ by country, by contract and by the meeting itself.</li>
+<li>The full text: <a href="/privacy/">Pacenote privacy policy</a> and <a href="/terms/">terms of use</a>.</li>
+</ul>
+<h2 id="what-you-need">What you need</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Mac</td><td>Apple Silicon (M1 or newer, 16 GB of memory is enough), macOS 14.2 or newer</td></tr><tr><td>Tools</td><td>Xcode Command Line Tools, Python 3.10+</td></tr><tr><td>Disk</td><td>About 2.5 GB for the model and the environment, plus about 1.3 GB for the optional extras</td></tr><tr><td>Claude</td><td>The app: a Claude API key, or a Claude plan with Claude Code. The skill: Claude desktop (Cowork) with a connected folder and the <code>live-tips</code> skill. A PM Control Tower project config is optional</td></tr><tr><td>Notion</td><td>Optional but recommended: the brief and the page after the call need it</td></tr><tr><td>Optional</td><td>Ollama with <code>bge-m3</code> for local search; the voice model for “who is speaking”</td></tr></tbody></table>
+<p>The Pacenote app needs less: macOS 14.4 or newer and Python 3.10 or newer, the rest comes from its Setup window. See <a href="#pacenote-app-beta">the app section</a>.</p>
+<p>A model tip: a faster model for everyday calls, the strongest one for interviews and high-stakes calls.</p>
+<h2 id="install-about-15-minutes">Install, about 15 minutes</h2>
+<p>Most of the time is the model download. Do it once, after <a href="https://tower.bodco.pm/start/">floor 2</a> works.</p>
+<h3 id="1-the-tools-it-needs">1. The tools it needs</h3>
+<p>If you do not have them yet, paste these into Terminal one at a time (<kbd>Cmd</kbd>+<kbd>Space</kbd>, “Terminal”). Homebrew itself is on <a href="https://tower.bodco.pm/start/#programs-some-add-ons-need">the setup page</a>.</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>xcode-select --install</span></span>
+<span class="line"><span>brew install python@3.12</span></span></code></pre>
+<p>The first one opens a window. Press <strong>Install</strong> and wait until it finishes.</p>
+<h3 id="2-put-the-recorder-on-your-mac">2. Put the recorder on your Mac</h3>
+<p>The recorder lives in the <a href="https://github.com/bodco/live-tips">Pacenote repository</a> (the app installs its own copy, this is for the skill). Download the repository, then ask Claude in a task with the <code>work</code> folder:</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>copy the recorder folder from ~/work/live-tips to ~/work/Tools/live-transcriber</span></span></code></pre>
+<h3 id="3-run-the-installer">3. Run the installer</h3>
+<p>This one you run yourself in Terminal, because macOS gives sound permissions only to the person at the Mac:</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>bash ~/work/Tools/live-transcriber/install.sh</span></span></code></pre>
+<p>It builds a small audio program, installs the speech model (about 1.6 GB) and then tests your sound.</p>
+<h3 id="4-allow-the-microphone-and-system-audio">4. Allow the microphone and system audio</h3>
+<p>During the test macOS asks 2 questions. Answer <strong>Allow</strong> to both:</p>
+<ul>
+<li><strong>Terminal would like to access the microphone.</strong> This is your side of the call.</li>
+<li><strong>Terminal would like to record system audio.</strong> This is everyone else on the call.</li>
+</ul>
+<p>When the script asks, play any sound (a YouTube video) for 5 seconds.</p>
+<p>Missed the pop-ups? Open <strong>System Settings</strong>, <strong>Privacy &#x26; Security</strong>:</p>
+<ul>
+<li><strong>Microphone</strong>: switch on <strong>Terminal</strong>.</li>
+<li><strong>Screen &#x26; System Audio Recording</strong>: add <strong>Terminal</strong> under system audio recording.</li>
+</ul>
+<h3 id="5-optional-extras">5. Optional extras</h3>
+<p>Who is speaking (a local voice model, about 30 MB):</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>bash ~/work/Tools/live-transcriber/bin/install-voices.sh</span></span></code></pre>
+<p>Local search by meaning: install <a href="https://ollama.com">Ollama</a>, then index each project once before its calls (later runs only add changed files):</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>ollama pull bge-m3</span></span>
+<span class="line"><span>~/work/Tools/live-transcriber/bin/lt index "$HOME/work/Acme Portal"</span></span></code></pre>
+<h3 id="6-check-it">6. Check it</h3>
+<p>Ask Claude:</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>check ~/work/Tools/live-transcriber/logs/install.log and tell me if the install is OK</span></span></code></pre>
+<p><strong>Done when</strong> the log ends with <code>install OK</code> and both the <code>mic</code> and <code>sys</code> peaks are above zero. If <code>sys</code> is zero, most likely nothing was playing during the test. Play a video and ask Claude to run the system audio check from <code>docs/en/17-live-tips.md</code>.</p>
+<h3 id="7-try-the-tips-window">7. Try the tips window</h3>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>python3 ~/work/Tools/live-transcriber/bin/demo_prompter.py</span></span></code></pre>
+<p>A scripted call of about 2 minutes plays in the real window: a speech, tips, a question marker, a “Who is speaking?” card, a microphone warning. Press 🆘 and ⏸ to see what they do. To check stealth, start a meeting in Google Meet, share your entire screen and look at what Meet shows you are presenting. <strong>Done when</strong> the window is not in that picture.</p>
+<h3 id="8-try-it-on-a-fake-call">8. Try it on a fake call</h3>
+<p>In a Cowork task with the <code>work</code> folder and Notion on:</p>
+<pre class="astro-code astro-code-themes github-light github-dark-dimmed" style="background-color:#fff;--shiki-dark-bg:#22272e;color:#24292e;--shiki-dark:#adbac7; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>live tips &#x3C;your project></span></span></code></pre>
+<p>A “Live transcriber” Terminal window and the tips window open by themselves. Talk for a minute, then write <code>stop</code> in the chat. <strong>Done when</strong> you get a wrap-up in the chat and the meeting’s page in your Meetings database.</p> </article> <aside class="docs-cta" data-astro-cid-tvezmfl6> <div data-astro-cid-tvezmfl6><b data-astro-cid-tvezmfl6>The full document lives in the repository</b><span class="muted" data-astro-cid-tvezmfl6>Every detail, in English and Ukrainian.</span></div> <a class="btn" href="https://github.com/bodco/live-tips/blob/main/docs/en/live-tips.md" data-astro-cid-tvezmfl6>Read <code data-astro-cid-tvezmfl6>live-tips/docs/en/live-tips.md</code></a> </aside> <nav class="pager" aria-label="Pager" data-astro-cid-tvezmfl6> <span data-astro-cid-tvezmfl6></span>  </nav> </div> </div>  </main> <footer class="site-footer"> <div class="footer wrap"> <div class="footer__about"> <b><span aria-hidden="true">🗼</span> PM Control Tower</b> <span>Beta. MIT licence: use it, change it, share it.</span> <span class="label">v1.9.1 · beta · MIT</span> </div> <div class="footer__cols"> <div class="footer__col"> <span class="label">Get it</span> <a href="https://bodco.notion.site/pm-control-tower">Notion template</a> <a href="https://github.com/bodco/pm-control-tower">GitHub repository</a> <a href="https://tower.bodco.pm/start/">Set it up</a> <a href="https://tower.bodco.pm/changelog/">Changelog</a> </div> <div class="footer__col"> <span class="label">Learn</span> <a href="https://tower.bodco.pm/day/">A day with it</a><a href="/">Pacenote</a><a href="https://tower.bodco.pm/notion/">Notion template</a><a href="https://tower.bodco.pm/skills/">Skills</a><a href="https://tower.bodco.pm/how-it-works/">How it works</a><a href="https://tower.bodco.pm/autopilot/">Autopilot</a><a href="https://tower.bodco.pm/principles/">Principles</a><a href="https://tower.bodco.pm/open-source/">Open source and beta</a> </div> <div class="footer__col"> <span class="label">More</span> <a href="https://github.com/bodco/pm-control-tower/blob/main/docs/en/README.md">Full documentation</a> <a href="https://github.com/bodco/tower.bodco.pm">Source of this site</a> <a href="https://bodco.pm/">About the author: bodco.pm</a> <a href="/privacy/">Privacy policy</a> <a href="/terms/">Terms of use</a> <a href="/privacy/">Pacenote: privacy</a> <button type="button" class="footer__consent" id="consent-reset">Analytics settings</button> </div> </div> </div> </footer> <script>
+  // 2026-10-27: forget the analytics choice and show the consent banner again.
+  (function () {
+    var b = document.getElementById('consent-reset');
+    if (b) b.addEventListener('click', function () {
+      try { localStorage.removeItem('analytics-consent'); } catch (e) {}
+      location.reload();
+    });
+  })();
+</script> <script>(function(){const id = "G-6X2RXXK7F0";
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  window.gtag = gtag;
+  gtag('consent', 'default', {
+    analytics_storage: 'denied',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+  });
+  var saved = null;
+  try { saved = localStorage.getItem('analytics-consent'); } catch (e) {}
+  if (saved === 'granted') gtag('consent', 'update', { analytics_storage: 'granted' });
+  gtag('js', new Date());
+  gtag('config', id, { allow_google_signals: false, allow_ad_personalization_signals: false });
+  // 2026-10-27: strict opt-in. Google's script is loaded only after the visitor allows analytics
+  // (now or on an earlier visit); without consent nothing is sent to Google at all.
+  window.ltLoadGa = function () {
+    if (window.ltGaLoaded) return; window.ltGaLoaded = true;
+    var s = document.createElement('script'); s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+    document.head.appendChild(s);
+  };
+  if (saved === 'granted') window.ltLoadGa();
+})();</script> <div class="consent" id="consent" role="region" aria-label="Analytics consent" hidden> <p>This site uses Google Analytics (cookies) to count visits. Allow it?</p> <div class="consent__btns"> <button type="button" data-consent="granted">Allow</button> <button type="button" data-consent="denied">Decline</button> </div> </div> <script>
+  (function () {
+    var box = document.getElementById('consent');
+    var saved = null;
+    try { saved = localStorage.getItem('analytics-consent'); } catch (e) {}
+    if (!saved) box.hidden = false;
+    box.addEventListener('click', function (e) {
+      var v = e.target && e.target.getAttribute && e.target.getAttribute('data-consent');
+      if (!v) return;
+      try { localStorage.setItem('analytics-consent', v); } catch (err) {}
+      if (v === 'granted') { window.gtag('consent', 'update', { analytics_storage: 'granted' }); if (window.ltLoadGa) window.ltLoadGa(); }
+      box.hidden = true;
+    });
+  })();
+</script>  </body></html>  <script type="module">const s=document.documentElement.lang==="uk"?["Копіювати","Скопійовано"]:["Copy","Copied"],r=/^\s*(\/bin\/|brew |xcode-select|git |curl |sudo |python|pip |npm |cd |\.\/|~\/)|[─│┐┘┤▶]/m;document.querySelectorAll(".prose pre").forEach(n=>{if(n.closest(".codefig"))return;r.test(n.textContent??"")&&n.classList.add("pre--nowrap");const e=document.createElement("button");e.type="button",e.className="copy",e.textContent=s[0],e.addEventListener("click",async()=>{const c=n.querySelector("code")?.innerText??n.innerText;try{await navigator.clipboard.writeText(c.trim())}catch{return}e.textContent=s[1],e.dataset.done="true",setTimeout(()=>{e.textContent=s[0],e.dataset.done="false"},1600)});const t=document.createElement("div");t.className="code-wrap";const o=document.createElement("div");o.className="code-wrap__bar",o.appendChild(e),n.parentNode?.insertBefore(t,n),t.appendChild(o),t.appendChild(n)});const a=[...document.querySelectorAll(".toc a")];if(a.length&&"IntersectionObserver"in window){const n=new Map(a.map(t=>[decodeURIComponent(t.hash.slice(1)),t])),e=new IntersectionObserver(t=>{for(const o of t)o.isIntersecting&&(a.forEach(c=>c.classList.remove("is-active")),n.get(o.target.id)?.classList.add("is-active"))},{rootMargin:"-90px 0px -70% 0px"});document.querySelectorAll(".prose h2[id]").forEach(t=>e.observe(t))}</script>
