@@ -1,12 +1,15 @@
 {
-  "name": "PM Control Tower",
-  "short_name": "Control Tower",
+  "name": "Pacenote",
+  "short_name": "Pacenote",
   "start_url": "/",
   "display": "browser",
   "background_color": "#0E1014",
   "theme_color": "#0E1014",
   "icons": [
-    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
   ]
 }
